@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口自动化框架Demo" duration-ms="8755" started-at="2022-08-07T16:47:59 CST" finished-at="2022-08-07T16:48:08 CST">
+    <groups>
+    </groups>
+    <test name="管理员登录" duration-ms="8755" started-at="2022-08-07T16:47:59 CST" finished-at="2022-08-07T16:48:08 CST">
+      <class name="com.cn.cases.AdminLogin">
+        <test-method status="PASS" signature="adminloginCase(com.cn.entiy.ExcelEntity)[pri:0, instance:com.cn.cases.AdminLogin@277f7dd3]" name="adminloginCase" duration-ms="6527" started-at="2022-08-07T16:48:01 CST" data-provider="ReadExcelDatas" finished-at="2022-08-07T16:48:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExcelEntity{caseId=1, desc='管理员登录', name='login', url='http://ny.testing.thinkworld360.com/gateway/api/system/user/login', params='{"username":"admin","password":"admin123"}', type='post', contentType='json', expectedResult='{"$.code":0,"$.data.username":"admin"}', responseContent='{"code":0,"msg":"\u767b\u5f55\u6210\u529f","data":{"username":"admin","role_id":5,"token":"0af8c3b2-da04-519b-0c09-525dae31e7c0","last_login_time":1558941483,"last_ip":"127.0.0.1"},"time":1659861974}', sql='null', finallyResult='passed'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminloginCase -->
+      </class> <!-- com.cn.cases.AdminLogin -->
+    </test> <!-- 管理员登录 -->
+  </suite> <!-- 接口自动化框架Demo -->
+</testng-results>

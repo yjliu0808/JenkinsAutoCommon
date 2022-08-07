@@ -1,0 +1,2 @@
+2022-08-07 16:48:07 INFO  AdminLogin:32 - {"code":0,"msg":"\u767b\u5f55\u6210\u529f","data":{"username":"admin","role_id":5,"token":"29db38c3-d079-0e15-e57c-0c0bbee9dbe6","last_login_time":1558941483,"last_ip":"127.0.0.1"},"time":1659862086}
+2022-08-07 16:48:07 INFO  AdminLogin:185 - 断言响应结果成功

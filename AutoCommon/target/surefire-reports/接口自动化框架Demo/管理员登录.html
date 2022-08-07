@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>TestNG:  管理员登录</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>管理员登录</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 07 16:47:59 CST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8755 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cn.cases.AdminLogin.adminloginCase()'><b>adminloginCase</b><br>Test class: com.cn.cases.AdminLogin<br>Parameters: ExcelEntity{caseId=1, desc='管理员登录', name='login', url='http://ny.testing.thinkworld360.com/gateway/api/system/user/login', params='{"username":"admin","password":"admin123"}', type='post', contentType='json', expectedResult='{"$.code":0,"$.data.username":"admin"}', responseContent='{"code":0,"msg":"\u767b\u5f55\u6210\u529f","data":{"username":"admin","role_id":5,"token":"0af8c3b2-da04-519b-0c09-525dae31e7c0","last_login_time":1558941483,"last_ip":"127.0.0.1"},"time":1659861974}', sql='null', finallyResult='passed'}</td>
+<td></td>
+<td>6</td>
+<td>com.cn.cases.AdminLogin@277f7dd3</td></tr>
+</table><p>
+</body>
+</html>
